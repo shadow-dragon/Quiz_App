@@ -186,7 +186,7 @@
             android:layout_marginLeft="@dimen/fab_margin"
             android:layout_marginStart="@dimen/fab_margin"
             android:hint="@string/ans"
-            android:inputType="textCapCharacters"
+            android:inputType="text"
             android:textSize="16sp" />
 
         <TextView
@@ -204,7 +204,7 @@
             android:layout_marginLeft="@dimen/fab_margin"
             android:layout_marginStart="@dimen/fab_margin"
             android:hint="@string/ans"
-            android:inputType="textCapCharacters"
+            android:inputType="text"
             android:textSize="16sp" />
 
         <TextView

@@ -39,12 +39,14 @@ public class QuestionsActivity extends AppCompatActivity {
 
         // Q5
         final EditText q5 = findViewById(R.id.q5a);
-        final String q5a = q5.getText().toString().toUpperCase();
+        String q5_small = q5.getText().toString();
+        final String q5a = (q5_small.toUpperCase());
 
 
         // Q6
         final EditText q6 = findViewById(R.id.q6a);
-        final String q6a = q6.getText().toString().toUpperCase();
+        String q6_small = q6.getText().toString();
+        final String q6a = (q6_small.toUpperCase());
 
         // Q7
         final RadioButton q7 = findViewById(R.id.q7a1);
@@ -74,13 +76,11 @@ public class QuestionsActivity extends AppCompatActivity {
                     score++;
                 }
                 //Q5
-                String ans5 = "ANDROID PACKAGE KIT";
-                if (q5a.equals(ans5)) {
+                if (q5a.equals("ANDROID PACKAGE KIT")) {
                     score++;
                 }
                 //Q6
-                String ans6 = "JAVA NATIVE INTERFACE";
-                if (q6a.equals(ans6)) {
+                if (q6a.equals("JAVA NATIVE INTERFACE")) {
                     score++;
                 }
                 //Q7

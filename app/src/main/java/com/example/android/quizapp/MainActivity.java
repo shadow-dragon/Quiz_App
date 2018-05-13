@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -16,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button button = (Button) findViewById(R.id.start_quiz);
+        Button button = findViewById(R.id.start_quiz);
         button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
