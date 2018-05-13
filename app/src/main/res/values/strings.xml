@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title_activity_choice">ChoiceActivity</string>
+
+    <!-- Edits -->
+    <!-- activity_main -->
+    <string name="welcome">Welcome to the quiz app</string>
+    <string name="start">Start</string>
+    <!-- activity_questions -->
+    <string name="submit">Submit</string>
+    <string name="ans">Answer                      </string>
+    <!-- questions -->
+    <string name="q1">Q1. Which of the following are Android text attributes? [1 point]</string>
+    <string name="q2">Q2. What is transient data in android? [2 points]</string>
+    <string name="q3">Q3. Breakpoint in android Breaks the execution. [1 point]</string>
+    <string name="q4">Q4. Android supports only 2 orientations. [1 point]</string>
+    <string name="q5">Q5. What is the full form of APK in android?         [1 point]</string>
+    <string name="q6">Q6. What is the full form of JNI in android? [1 point]</string>
+    <string name="q7">Q7. What is an activity in Android? [1 point]</string>
+    <string name="q8">Q8. What is splash screen in android? [2 points]</string>
+    <!-- answers -->
+    <string name="ans1a">android:textColor </string>
+    <string name="ans1b">android:textSize </string>
+    <string name="ans1c">android:scaleType </string>
+    <string name="ans1d">android:src </string>
+
+    <string name="ans2a">Permanent data </string>
+    <string name="ans2b">Secure data </string>
+    <string name="ans2c">Temporary data </string>
+    <string name="ans2d">Logical data </string>
+
+    <string name="ans3a">True </string>
+    <string name="ans3b">False </string>
+
+    <string name="ans4a">True </string>
+    <string name="ans4b">False </string>
+
+    <string name="ans7a">Activity performs the actions on the screen </string>
+    <string name="ans7b">Manage the Application content </string>
+    <string name="ans7c">Screen UI </string>
+    <string name="ans7d">None of the above </string>
+
+    <string name="ans8a">Initial activity of an application </string>
+    <string name="ans8b">Initial service of an application </string>
+    <string name="ans8c">Initial method of an application </string>
+    <string name="ans8d">Initial screen of an application </string>
+
+    <!-- Result -->
+    <string name="res1">This is your result </string>
+    <string name="res2">You have scored: </string>
+    <string name="res3">Thank you for using</string>
+    <string name="res4">the Quiz App!</string>
+
+
+</resources>
